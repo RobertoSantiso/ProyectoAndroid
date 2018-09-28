@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProBuilds</string>
+    <string name="campeones">Campeones</string>
+    <string name="objetos" translatable="false">Objetos</string>
+    <string name="equipo">Equipo</string>
+</resources>

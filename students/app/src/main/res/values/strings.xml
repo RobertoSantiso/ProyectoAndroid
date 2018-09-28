@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ProBuilds</string>
+    <string name="campeones">Campeones</string>
+    <string name="objetos">Objetos</string>
+    <string name="equipo">Equipo</string>
+</resources>
