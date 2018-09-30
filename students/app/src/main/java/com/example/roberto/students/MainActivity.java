@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
         buttonCampeones.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                LocaleHelper.setLocale(MainActivity.this, "es");
-                recreate();
+                //LocaleHelper.setLocale(MainActivity.this, "es");
+                //recreate();
                 requestMessage();
 
             }
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        textViewMessage.setText("Error: " + error.toString());
+                        textViewMessage.setText("Error: no server" + error.toString());
 
                     }
                 });
